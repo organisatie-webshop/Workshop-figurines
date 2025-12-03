@@ -1,8 +1,10 @@
-<?php
-  require "header.php";
+<?php require "includes/header.php";?>
 
-  echo "test";
-  echo "get edtited loser >:(";
+<nav>
+    <li>navigatie</li>
+    <li>searchbar</li>
+    <li>Login</li>
+    <li>Winkel Wagen</li>
+</nav>
 
-  require "footer.php";
-?>
+<?php require "includes/footer.php";?>
