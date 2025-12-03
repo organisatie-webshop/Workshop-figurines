@@ -1,5 +1,5 @@
-<?php
-
-  echo "test";
-
-?>
+<html>
+  <head>
+    <title>Webshop</title>
+  </head>
+  <body>
