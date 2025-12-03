@@ -1,4 +1,4 @@
-<!-- connection -->
+<!-- Connection -->
 <?php
 $servername = "localhost";
 $username = "root";
