@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="frontpage.css">
-<head>
-  <title>Weebshop</title>
-</head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <title>Weebshop</title>
+  </head>
 
-<body>
+  <body>

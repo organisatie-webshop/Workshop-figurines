@@ -1,1 +1,57 @@
+a {
+    display: inline-block;
+    background-color: darkgrey;
+    text-decoration: none;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    margin-left: 10px;
+}
 
+/* for the search bar */
+.Search {
+    grid: center;
+    width: 450px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+
+}
+
+.Header {
+    background-color: grey;
+    width: auto;
+    height: 100px;
+}
+
+header {
+  min-height: 50px;
+  background: lightgrey;
+}
+
+.main  {
+  display: flex;
+  flex: auto;
+  margin: 8px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+
+
+footer {
+  min-height: 50px;
+  background: black;
+  height: 100px;
+  width: auto;
+  color: white;
+}
