@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <?php require "includes/header.php";?>
 
 <!-- nav bar / Header -->
@@ -17,3 +20,4 @@
 </main>
 
 <?php require "includes/footer.php";?>
+</html>
