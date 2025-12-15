@@ -23,7 +23,10 @@ $pdo = connectDB();
 if (!empty($_SESSION["cart"])){
     echo "<ul>";
     foreach ($_SESSION["cart"] as $cart){
-        echo "<li>".$cart."</li>";
+        $stmt = $pdo->prepare("SELECT * FROM figures WHERE id ='" . $cart . "'");
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        echo "<li>".$result['title']."</li>";
     }
 } else {
     echo "winkelwagen is leeg";
@@ -38,4 +41,5 @@ if (!empty($_SESSION["cart"])){
     include_once 'includes/footer.php';
     ?>
 </footer>
+
 </html>
